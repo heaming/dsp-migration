@@ -25,6 +25,7 @@ allprojects {
         annotationProcessor 'org.projectlombok:lombok'
         testCompileOnly 'org.projectlombok:lombok'
         testAnnotationProcessor 'org.projectlombok:lombok'
+        testRuntimeOnly 'com.h2database:h2'
     }
 }
 
