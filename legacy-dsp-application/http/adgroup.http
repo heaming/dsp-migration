@@ -1,0 +1,34 @@
+
+###
+###
+POST http://localhost:8080/adgroup/v1
+Content-Type: application/json
+
+{
+  "name": "",
+  "campaignId": 2,
+  "linkUrl": "https://www.naver.com"
+}
+###
+GET http://localhost:8080/adgroup/v1/1
+
+###
+PATCH http://localhost:8080/adgroup/v1/name
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "ad-group1"
+}
+
+###
+PATCH http://localhost:8080/adgroup/v1/link-url
+Content-Type: application/json
+
+{
+  "id": 1,
+  "linkUrl": "https://www.google.com"
+}
+
+###
+DELETE http://localhost:8080/adgroup/v1/1

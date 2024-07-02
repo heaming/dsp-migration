@@ -8,6 +8,6 @@ spring:
         maximum-pool-size: 100
       properties:
         hibernate:
-          ddl-auto: update
-          show-sql: true
-          physical-naming-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+          hbm2ddl.auto: update
+          show_sql: true
+          physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
