@@ -1,0 +1,33 @@
+###
+POST http://localhost:8080/campaign/v1
+Content-Type: application/json
+
+{
+  "name": "budget2",
+  "userId": 2,
+  "budget": 10000
+}
+
+###
+GET http://localhost:8080/campaign/v1/1
+
+###
+PATCH http://localhost:8080/campaign/v1/name
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "campaign1"
+}
+
+###
+PATCH http://localhost:8080/campaign/v1/budget
+Content-Type: application/json
+
+{
+  "id": 1,
+  "budget": 10000
+}
+
+###
+DELETE http://localhost:8080/campaign/v1/1

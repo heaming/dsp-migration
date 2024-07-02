@@ -3,7 +3,7 @@ POST http://localhost:8080/user/v1
 Content-Type: application/json
 
 {
-  "name": "name1"
+  "name": "name2"
 }
 
 ### user 조회
