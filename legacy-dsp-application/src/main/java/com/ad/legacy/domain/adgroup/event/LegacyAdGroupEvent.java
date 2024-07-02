@@ -16,7 +16,7 @@ public abstract class LegacyAdGroupEvent implements DomainEvent {
 
     @Override
     public AggregateType aggregateType() {
-        return AggregateType.CAMPAIGN;
+        return AggregateType.ADGROUP;
     }
 
     @Override

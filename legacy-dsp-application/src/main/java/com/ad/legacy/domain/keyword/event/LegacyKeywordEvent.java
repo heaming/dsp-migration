@@ -16,7 +16,7 @@ public abstract class LegacyKeywordEvent implements DomainEvent {
 
     @Override
     public AggregateType aggregateType() {
-        return AggregateType.USER;
+        return AggregateType.KEYWORD;
     }
 
     @Override

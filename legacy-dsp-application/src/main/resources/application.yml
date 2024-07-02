@@ -11,3 +11,21 @@ spring:
           hbm2ddl.auto: update
           show_sql: true
           physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+
+  cloud:
+    stream:
+      binders:
+        legacy-rabbit1:
+          type: rabbit
+          environment:
+            spring.rabbitmq:
+              host: localhost
+              port: 5673
+              username: user
+              password: user
+              virtual-host: legacy
+      bindings:
+        legacy-rabbit-out:
+          binder: legacy-rabbit1
+          destination: legacy-topic
+
