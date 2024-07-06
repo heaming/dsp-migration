@@ -1,5 +1,6 @@
 package com.ad.migration.gradual.domain.legacyad.campaign;
 
+import com.ad.migration.gradual.domain.legacyad.DeletableEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,7 +13,7 @@ import java.time.LocalDateTime;
 @Entity
 @NoArgsConstructor
 @Getter
-public class LegacyCampaign {
+public class LegacyCampaign implements DeletableEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

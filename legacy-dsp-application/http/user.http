@@ -3,7 +3,7 @@ POST http://localhost:8080/user/v1
 Content-Type: application/json
 
 {
-  "name": "user_test"
+  "name": "gradual"
 }
 
 ### user 조회
@@ -15,9 +15,9 @@ PATCH http://localhost:8080/user/v1/name
 Content-Type: application/json
 
 {
-  "id": 1,
+  "id": 6,
   "name": "newName"
 }
 
 ### user 삭제
-DELETE http://localhost:8080/user/v1/1
+DELETE http://localhost:8080/user/v1/6

@@ -5,8 +5,9 @@ POST http://localhost:8080/adgroup/v1
 Content-Type: application/json
 
 {
-  "name": "",
-  "campaignId": 2,
+  "name": "광고 그룹",
+  "userId": 6,
+  "campaignId": 4,
   "linkUrl": "https://www.naver.com"
 }
 ###
@@ -17,7 +18,7 @@ PATCH http://localhost:8080/adgroup/v1/name
 Content-Type: application/json
 
 {
-  "id": 1,
+  "id": 2,
   "name": "ad-group1"
 }
 
@@ -26,9 +27,9 @@ PATCH http://localhost:8080/adgroup/v1/link-url
 Content-Type: application/json
 
 {
-  "id": 1,
+  "id": 2,
   "linkUrl": "https://www.google.com"
 }
 
 ###
-DELETE http://localhost:8080/adgroup/v1/1
+DELETE http://localhost:8080/adgroup/v1/4

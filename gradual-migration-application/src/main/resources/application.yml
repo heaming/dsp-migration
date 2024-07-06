@@ -43,3 +43,6 @@ spring:
           binder: legacy-rabbit1
           destination: legacy-topic
           group: migration
+logging:
+  file:
+    name: logs/gradual.log

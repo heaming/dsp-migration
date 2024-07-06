@@ -3,12 +3,12 @@ POST http://localhost:8080/keyword/v1
 Content-Type: application/json
 
 {
-  "text": "keyword1",
-  "adGroupId": 1
+  "text": "키워드",
+  "adGroupId": 2
 }
 
 ###
 GET http://localhost:8080/keyword/v1/1
 
 ###
-DELETE http://localhost:8080/keyword/v1/1
+DELETE http://localhost:8080/keyword/v1/4
