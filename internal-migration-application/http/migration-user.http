@@ -1,6 +1,6 @@
 
 ###
-POST http://localhost:8082/migration/v1/user/5/agree
+POST http://localhost:8082/migration/v1/user/2/agree
 Content-Type: application/x-www-form-urlencoded
 
 ###

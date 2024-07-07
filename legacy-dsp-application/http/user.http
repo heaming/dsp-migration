@@ -15,8 +15,8 @@ PATCH http://localhost:8080/user/v1/name
 Content-Type: application/json
 
 {
-  "id": 6,
-  "name": "newName"
+  "id": 2,
+  "name": "internal_agree!"
 }
 
 ### user 삭제

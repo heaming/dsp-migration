@@ -5,9 +5,9 @@ POST http://localhost:8080/adgroup/v1
 Content-Type: application/json
 
 {
-  "name": "광고 그룹",
-  "userId": 6,
-  "campaignId": 4,
+  "name": "hi 광고 그룹",
+  "userId": 2,
+  "campaignId": 7,
   "linkUrl": "https://www.naver.com"
 }
 ###

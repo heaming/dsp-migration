@@ -25,4 +25,8 @@ public class MigrationUserService {
         return MigrationUserResult.from(migrationUserRepository.findById(userId)
                 .orElseThrow(EntityNotFoundException::new));
     }
+
+    public boolean isDisAgreed(Long userId) {
+        return migrationUserRepository.findById(userId).isEmpty();
+    }
 }

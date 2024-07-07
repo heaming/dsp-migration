@@ -17,7 +17,7 @@ public class LegacyAdGroupConverter implements LegacyConverter<LegacyAdGroup, Re
 
     @Override
     public RecentCampaign convert(LegacyAdGroup legacyAdGroup) {
-        LegacyCampaign campaign = legacyCampaignRepository.findById(legacyAdGroup.getId())
+        LegacyCampaign campaign = legacyCampaignRepository.findById(legacyAdGroup.getCampaignId())
                 .orElseThrow(EntityNotFoundException::new);
 
         return RecentCampaign.migrated(

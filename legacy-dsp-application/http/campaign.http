@@ -3,9 +3,9 @@ POST http://localhost:8080/campaign/v1
 Content-Type: application/json
 
 {
-  "name": "캠페인",
-  "userId": 6,
-  "budget": 10000
+  "name": "hihi",
+  "userId": 2,
+  "budget": 600
 }
 
 ###
