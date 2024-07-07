@@ -27,7 +27,7 @@ PATCH http://localhost:8080/adgroup/v1/link-url
 Content-Type: application/json
 
 {
-  "id": 2,
+  "id": 3,
   "linkUrl": "https://www.google.com"
 }
 
