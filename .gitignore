@@ -8,6 +8,10 @@ build/
 ### docker ###
 dsp-docker-infra/data
 
+### logging ###
+logs/
+*.log
+
 ### STS ###
 .apt_generated
 .classpath
