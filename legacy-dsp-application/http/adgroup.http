@@ -18,7 +18,7 @@ PATCH http://localhost:8080/adgroup/v1/name
 Content-Type: application/json
 
 {
-  "id": 2,
+  "id": 1,
   "name": "ad-group1"
 }
 
