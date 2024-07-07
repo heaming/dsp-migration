@@ -1,6 +1,6 @@
 package com.ad.migration.gradual.message;
 
-import com.ad.migration.gradual.applicaion.dispatcher.MigrationDispatcher;
+import com.ad.migration.application.dispatcher.MigrationDispatcher;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;

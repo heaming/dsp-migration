@@ -3,7 +3,7 @@ POST http://localhost:8080/keyword/v1
 Content-Type: application/json
 
 {
-  "text": "키워드",
+  "text": "키워드333",
   "adGroupId": 2
 }
 

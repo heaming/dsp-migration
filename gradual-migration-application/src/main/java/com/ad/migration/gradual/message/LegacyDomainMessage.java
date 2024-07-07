@@ -1,6 +1,6 @@
 package com.ad.migration.gradual.message;
 
-import com.ad.migration.gradual.domain.AggregateType;
+import com.ad.migration.domain.AggregateType;
 
 import java.time.LocalDateTime;
 
