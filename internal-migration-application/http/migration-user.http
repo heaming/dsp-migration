@@ -5,3 +5,13 @@ Content-Type: application/x-www-form-urlencoded
 
 ###
 GET http://localhost:8082/migration/v1/user/7
+
+### 단건 재처리
+PUT http://localhost:8082/migration/v1/retry
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "aggregateId": 9,
+  "aggregateType": "ADGROUP"
+}
