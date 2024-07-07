@@ -1,0 +1,7 @@
+
+###
+POST http://localhost:8082/migration/v1/user/5/agree
+Content-Type: application/x-www-form-urlencoded
+
+###
+GET http://localhost:8082/migration/v1/user/7

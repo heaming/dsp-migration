@@ -21,7 +21,8 @@ import java.util.Properties;
 
 @Configuration
 @EnableJpaRepositories(
-        basePackages = "com.ad.migration.domain.recentad",
+        basePackages = {"com.ad.migration.domain.recentad",
+                        "com.ad.migration.domain.migration"},
         entityManagerFactoryRef = "recentAdEntityManagerFactory",
         transactionManagerRef = "recentAdTransactionManager"
 )
@@ -49,7 +50,8 @@ public class RecentAdConfig {
     ) {
         LocalContainerEntityManagerFactoryBean factoryBean = builder
                 .dataSource(dataSource)
-                .packages("com.ad.migration.domain.recentad")
+                .packages("com.ad.migration.domain.recentad",
+                        "com.ad.migration.domain.migration")
                 .build();
 
         factoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
